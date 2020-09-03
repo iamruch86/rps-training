@@ -1,0 +1,12 @@
+2020-09-02 14:26:59,686 p=6557 u=root n=ansible | PLAY [Demonstrates the use of list and navigating/accessing list elements] ***********************************************
+2020-09-02 14:26:59,697 p=6557 u=root n=ansible | TASK [Gathering Facts] ***************************************************************************************************
+2020-09-02 14:27:01,182 p=6557 u=root n=ansible | ok: [ubuntu2]
+2020-09-02 14:27:02,168 p=6557 u=root n=ansible | ok: [ubuntu1]
+2020-09-02 14:27:02,180 p=6557 u=root n=ansible | TASK [Install software tools] ********************************************************************************************
+2020-09-02 14:27:21,599 p=6557 u=root n=ansible | [WARNING]: Updating cache and auto-installing missing dependency: python3-apt
+
+2020-09-02 14:27:21,599 p=6557 u=root n=ansible | changed: [ubuntu2]
+2020-09-02 14:27:23,909 p=6557 u=root n=ansible | changed: [ubuntu1]
+2020-09-02 14:27:23,913 p=6557 u=root n=ansible | PLAY RECAP ***************************************************************************************************************
+2020-09-02 14:27:23,913 p=6557 u=root n=ansible | ubuntu1                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-09-02 14:27:23,913 p=6557 u=root n=ansible | ubuntu2                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
